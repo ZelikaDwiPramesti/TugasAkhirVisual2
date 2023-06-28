@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 294
-  Top = 148
+  Left = 213
+  Top = 129
   Width = 928
   Height = 480
   Caption = 'TABLE POIN'
@@ -159,8 +159,8 @@ object Form2: TForm2
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'C:\Users\Asus\Documents\TugasAkhirVisual2Zelika\libmysql.dll'
-    Left = 672
-    Top = 80
+    Left = 616
+    Top = 64
   end
   object DS1: TDataSource
     DataSet = zqry1
@@ -173,8 +173,8 @@ object Form2: TForm2
     SQL.Strings = (
       'select * from table_poin')
     Params = <>
-    Left = 624
-    Top = 56
+    Left = 664
+    Top = 88
   end
   object frxrprt1: TfrxReport
     Version = '4.12.6'
@@ -185,7 +185,7 @@ object Form2: TForm2
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45104.864295844900000000
-    ReportOptions.LastChange = 45104.916375914300000000
+    ReportOptions.LastChange = 45105.942343935190000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'

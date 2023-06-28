@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 253
-  Top = 183
+  Left = 203
+  Top = 168
   Width = 928
   Height = 480
   Caption = 'TABLE KELAS'
@@ -127,6 +127,22 @@ object Form1: TForm1
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
     OnCellClick = dg1CellClick
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'nama'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'jenis'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'jurusan'
+        Visible = True
+      end>
   end
   object DS1: TDataSource
     DataSet = zqry1
@@ -139,8 +155,8 @@ object Form1: TForm1
     SQL.Strings = (
       'select * from table_kelas')
     Params = <>
-    Left = 632
-    Top = 56
+    Left = 680
+    Top = 104
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -155,8 +171,8 @@ object Form1: TForm1
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'C:\Users\Asus\Documents\TugasAkhirVisual2Zelika\libmysql.dll'
-    Left = 688
-    Top = 104
+    Left = 640
+    Top = 56
   end
   object frxrprt1: TfrxReport
     Version = '4.12.6'
@@ -167,7 +183,7 @@ object Form1: TForm1
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45104.480398981500000000
-    ReportOptions.LastChange = 45104.856264895830000000
+    ReportOptions.LastChange = 45105.834379039300000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
