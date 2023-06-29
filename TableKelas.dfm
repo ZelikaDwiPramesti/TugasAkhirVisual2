@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 203
-  Top = 168
+  Left = 248
+  Top = 145
   Width = 928
   Height = 480
   Caption = 'TABLE KELAS'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,23 +17,41 @@ object Form1: TForm1
   object l1: TLabel
     Left = 64
     Top = 40
-    Width = 55
-    Height = 13
+    Width = 64
+    Height = 16
     Caption = 'Nama Kelas'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l2: TLabel
     Left = 64
     Top = 88
-    Width = 24
-    Height = 13
+    Width = 26
+    Height = 16
     Caption = 'Jenis'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l3: TLabel
     Left = 64
     Top = 136
-    Width = 38
-    Height = 13
+    Width = 41
+    Height = 16
     Caption = 'Jurusan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object e1: TEdit
     Left = 176

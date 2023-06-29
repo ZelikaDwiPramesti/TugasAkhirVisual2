@@ -4,7 +4,7 @@ object Form8: TForm8
   Width = 1150
   Height = 480
   Caption = 'TABLE WALI KELAS'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,105 +17,105 @@ object Form8: TForm8
   object l1: TLabel
     Left = 48
     Top = 40
-    Width = 51
-    Height = 16
+    Width = 60
+    Height = 18
     Caption = 'NIK / NIP'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l2: TLabel
     Left = 48
     Top = 88
-    Width = 34
-    Height = 16
+    Width = 44
+    Height = 18
     Caption = 'NAMA'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l3: TLabel
     Left = 48
     Top = 128
-    Width = 86
-    Height = 16
+    Width = 105
+    Height = 18
     Caption = 'JENIS KELAMIN'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l4: TLabel
     Left = 48
     Top = 176
-    Width = 69
-    Height = 16
+    Width = 90
+    Height = 18
     Caption = 'PENDIDIKAN'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l5: TLabel
     Left = 48
     Top = 216
-    Width = 52
-    Height = 16
+    Width = 63
+    Height = 18
     Caption = 'TELEPON'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l6: TLabel
     Left = 48
     Top = 256
-    Width = 46
-    Height = 16
+    Width = 56
+    Height = 18
     Caption = 'MATPEL'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l7: TLabel
     Left = 48
     Top = 296
-    Width = 48
-    Height = 16
+    Width = 60
+    Height = 18
     Caption = 'ALAMAT'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l8: TLabel
     Left = 48
     Top = 336
-    Width = 48
-    Height = 16
+    Width = 54
+    Height = 18
     Caption = 'STATUS'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object e1: TEdit

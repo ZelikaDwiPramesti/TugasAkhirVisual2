@@ -16,6 +16,7 @@ uses
 
 begin
   Application.Initialize;
+  Application.CreateForm(TForm9, Form9);
   Application.CreateForm(TForm8, Form8);
   Application.CreateForm(TForm7, Form7);
   Application.CreateForm(TForm6, Form6);
@@ -24,6 +25,5 @@ begin
   Application.CreateForm(TForm4, Form4);
   Application.CreateForm(TForm2, Form2);
   Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.

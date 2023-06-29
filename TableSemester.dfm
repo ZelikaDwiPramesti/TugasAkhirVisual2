@@ -1,10 +1,10 @@
 object Form6: TForm6
-  Left = 135
-  Top = 132
+  Left = 232
+  Top = 98
   Width = 1037
   Height = 636
   Caption = 'TABLE SEMESTER'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -18,118 +18,118 @@ object Form6: TForm6
   object l1: TLabel
     Left = 376
     Top = 48
-    Width = 54
-    Height = 16
+    Width = 70
+    Height = 18
     Caption = 'TANGGAL'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l2: TLabel
     Left = 376
     Top = 88
-    Width = 63
-    Height = 16
+    Width = 71
+    Height = 18
     Caption = 'SEMESTER'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l3: TLabel
     Left = 64
     Top = 48
-    Width = 56
-    Height = 16
+    Width = 63
+    Height = 18
     Caption = 'ID SISWA'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l4: TLabel
     Left = 64
     Top = 88
-    Width = 44
-    Height = 16
+    Width = 54
+    Height = 18
     Caption = 'ID POIN'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l5: TLabel
     Left = 376
     Top = 128
-    Width = 52
-    Height = 16
+    Width = 57
+    Height = 18
     Caption = 'STATUS '
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l6: TLabel
     Left = 376
     Top = 168
-    Width = 91
-    Height = 16
+    Width = 112
+    Height = 18
     Caption = 'TINGKAT KELAS'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l8: TLabel
     Left = 64
     Top = 128
-    Width = 46
-    Height = 16
+    Width = 55
+    Height = 18
     Caption = 'ID WALI'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l9: TLabel
     Left = 64
     Top = 168
-    Width = 49
-    Height = 16
+    Width = 58
+    Height = 18
     Caption = 'ID ORTU'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l7: TLabel
     Left = 64
     Top = 208
-    Width = 52
-    Height = 16
+    Width = 63
+    Height = 18
     Caption = 'ID KELAS'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object e1: TEdit

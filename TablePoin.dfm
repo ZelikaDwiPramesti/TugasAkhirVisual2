@@ -4,7 +4,7 @@ object Form2: TForm2
   Width = 928
   Height = 480
   Caption = 'TABLE POIN'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,30 +17,54 @@ object Form2: TForm2
   object l1: TLabel
     Left = 64
     Top = 24
-    Width = 50
-    Height = 13
+    Width = 58
+    Height = 16
     Caption = 'Nama Poin'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l2: TLabel
     Left = 64
     Top = 64
-    Width = 28
-    Height = 13
+    Width = 29
+    Height = 16
     Caption = 'Bobot'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l3: TLabel
     Left = 64
     Top = 112
-    Width = 24
-    Height = 13
+    Width = 26
+    Height = 16
     Caption = 'Jenis'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l4: TLabel
     Left = 64
     Top = 160
-    Width = 31
-    Height = 13
+    Width = 33
+    Height = 16
     Caption = 'Status'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object e1: TEdit
     Left = 160
@@ -185,7 +209,7 @@ object Form2: TForm2
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45104.864295844900000000
-    ReportOptions.LastChange = 45105.942343935190000000
+    ReportOptions.LastChange = 45106.544302997690000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -238,7 +262,7 @@ object Form2: TForm2
         Width = 718.110700000000000000
         object Memo2: TfrxMemoView
           Left = 177.637910000000000000
-          Top = 7.559060000000000000
+          Top = 3.779530000000000000
           Width = 45.354360000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -255,7 +279,7 @@ object Form2: TForm2
         end
         object Memo3: TfrxMemoView
           Left = 222.992270000000000000
-          Top = 7.559060000000000000
+          Top = 3.779530000000000000
           Width = 90.708720000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -272,7 +296,7 @@ object Form2: TForm2
         end
         object Memo4: TfrxMemoView
           Left = 313.700990000000000000
-          Top = 7.559060000000000000
+          Top = 3.779530000000000000
           Width = 68.031540000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -289,7 +313,7 @@ object Form2: TForm2
         end
         object Memo5: TfrxMemoView
           Left = 381.732530000000000000
-          Top = 7.559060000000000000
+          Top = 3.779530000000000000
           Width = 71.811070000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -306,7 +330,7 @@ object Form2: TForm2
         end
         object Memo6: TfrxMemoView
           Left = 453.543600000000000000
-          Top = 7.559060000000000000
+          Top = 3.779530000000000000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
           ShowHint = False

@@ -1,10 +1,10 @@
 object Form3: TForm3
-  Left = 183
-  Top = 163
+  Left = 173
+  Top = 98
   Width = 1136
   Height = 561
   Caption = 'TABLE HUBUNGAN'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -18,66 +18,66 @@ object Form3: TForm3
   object l1: TLabel
     Left = 64
     Top = 128
-    Width = 75
-    Height = 16
+    Width = 87
+    Height = 18
     Caption = 'STATUS HUB'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l2: TLabel
     Left = 64
     Top = 176
-    Width = 77
-    Height = 16
+    Width = 97
+    Height = 18
     Caption = 'KETERANGAN'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l3: TLabel
     Left = 64
     Top = 48
-    Width = 56
-    Height = 16
+    Width = 63
+    Height = 18
     Caption = 'ID SISWA'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l4: TLabel
     Left = 64
     Top = 88
-    Width = 49
-    Height = 16
+    Width = 58
+    Height = 18
     Caption = 'ID ORTU'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l5: TLabel
     Left = 64
     Top = 216
-    Width = 85
-    Height = 16
+    Width = 96
+    Height = 18
     Caption = 'STATUS ORTU'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object e1: TEdit
@@ -214,8 +214,8 @@ object Form3: TForm3
     SQL.Strings = (
       'select * from table_hubungan')
     Params = <>
-    Left = 216
-    Top = 368
+    Left = 224
+    Top = 360
   end
   object frxdbdtst1: TfrxDBDataset
     UserName = 'frxDBDataset1'

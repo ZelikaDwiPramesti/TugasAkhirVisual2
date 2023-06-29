@@ -4,7 +4,7 @@ object Form7: TForm7
   Width = 1070
   Height = 457
   Caption = 'TABLE USER'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,53 +17,53 @@ object Form7: TForm7
   object l1: TLabel
     Left = 64
     Top = 40
-    Width = 58
-    Height = 16
+    Width = 62
+    Height = 18
     Caption = 'Username'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l2: TLabel
     Left = 64
     Top = 88
-    Width = 55
-    Height = 16
+    Width = 58
+    Height = 18
     Caption = 'Password'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l3: TLabel
     Left = 64
     Top = 128
-    Width = 29
-    Height = 16
+    Width = 33
+    Height = 18
     Caption = 'Level'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object l4: TLabel
     Left = 64
     Top = 168
-    Width = 36
-    Height = 16
+    Width = 37
+    Height = 18
     Caption = 'Status'
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object e1: TEdit

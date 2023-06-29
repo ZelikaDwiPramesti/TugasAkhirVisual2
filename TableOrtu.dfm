@@ -1,10 +1,10 @@
 object Form4: TForm4
-  Left = 43
-  Top = 150
+  Left = 170
+  Top = 153
   Width = 1181
   Height = 480
   Caption = 'TABLE ORTU'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,65 +17,119 @@ object Form4: TForm4
   object l1: TLabel
     Left = 48
     Top = 16
-    Width = 17
-    Height = 13
+    Width = 22
+    Height = 16
     Caption = 'NIK'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l2: TLabel
     Left = 48
-    Top = 56
-    Width = 29
-    Height = 13
+    Top = 48
+    Width = 38
+    Height = 16
     Caption = 'NAMA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l3: TLabel
     Left = 48
     Top = 88
-    Width = 61
-    Height = 13
+    Width = 76
+    Height = 16
     Caption = 'PENDIDIKAN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l4: TLabel
     Left = 48
     Top = 128
-    Width = 57
-    Height = 13
+    Width = 69
+    Height = 16
     Caption = 'PEKERJAAN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l5: TLabel
     Left = 48
     Top = 168
-    Width = 23
-    Height = 13
+    Width = 28
+    Height = 16
     Caption = 'TELP'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l6: TLabel
     Left = 48
     Top = 208
-    Width = 40
-    Height = 13
+    Width = 52
+    Height = 16
     Caption = 'ALAMAT'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l7: TLabel
     Left = 48
     Top = 248
-    Width = 74
-    Height = 13
+    Width = 90
+    Height = 16
     Caption = 'JENIS KELAMIN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l8: TLabel
     Left = 48
     Top = 288
-    Width = 36
-    Height = 13
+    Width = 47
+    Height = 16
     Caption = 'AGAMA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object l9: TLabel
     Left = 48
     Top = 328
-    Width = 38
-    Height = 13
+    Width = 46
+    Height = 16
     Caption = 'STATUS'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Book Antiqua'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object cbb1: TComboBox
     Left = 224
@@ -269,8 +323,8 @@ object Form4: TForm4
     SQL.Strings = (
       'select * from table_ortu')
     Params = <>
-    Left = 640
-    Top = 392
+    Left = 624
+    Top = 376
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
