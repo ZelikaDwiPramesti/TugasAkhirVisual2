@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 260
-  Top = 165
+  Left = 259
+  Top = 93
   Width = 896
   Height = 628
   Caption = 'TABLE SISWA'

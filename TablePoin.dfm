@@ -197,8 +197,8 @@ object Form2: TForm2
     SQL.Strings = (
       'select * from table_poin')
     Params = <>
-    Left = 664
-    Top = 88
+    Left = 672
+    Top = 96
   end
   object frxrprt1: TfrxReport
     Version = '4.12.6'
@@ -216,7 +216,7 @@ object Form2: TForm2
       ''
       'end.')
     Left = 784
-    Top = 144
+    Top = 168
     Datasets = <
       item
         DataSet = frxdbdtst1
@@ -456,7 +456,7 @@ object Form2: TForm2
     CloseDataSource = False
     DataSet = zqry1
     BCDToCurrency = False
-    Left = 728
-    Top = 104
+    Left = 720
+    Top = 128
   end
 end
